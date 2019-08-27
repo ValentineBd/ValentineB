@@ -16,6 +16,12 @@
     return print(pur_pur)
     do_numeric('aydhdi')
     
+    def positive_sum(arr):
+    sum = 0    
+    for x in arr:
+        if x > 0 : sum = sum + x
+    return (sum)
+
     
     def DNA_strand(dna):
     new_dna = []
@@ -31,3 +37,4 @@
     new_dna = ''.join(new_dna)
     return print("\'%s\'" % new_dna)
     
+
